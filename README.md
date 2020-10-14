@@ -11,4 +11,4 @@
 - [X] Add some links to my github and the CoreDumped Academy web.
 
 ## Technologies
-  Project created with Visual Studio Code and nothing more for now.
+- Project created with Visual Studio Code and nothing more for now.
