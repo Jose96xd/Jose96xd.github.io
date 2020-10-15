@@ -4,7 +4,7 @@
   * [Technologies](#technologies)
   
 ## Links
-- The web link: [Jose96xd.github.io](Jose96xd.github.io).
+- The web link: [Jose96xd.github.io](https://Jose96xd.github.io).
 
 ## Summary
 - My first web using html and some css. I plan to learn the basic stuff and a bit of other things.
