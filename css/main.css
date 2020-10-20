@@ -1,0 +1,39 @@
+body { background-color: #112d4e; }
+h1, h2, h3, h4, h4, h5, h6
+{ 
+  color: #eeeeee; 
+}
+
+p
+{
+  color: #eeeeee;
+  size: 1%;
+}
+
+a:link, a:visited { color: lightsalmon; }
+
+.parrafo
+{
+  background-color: #373a40;
+  margin: 10px;
+  padding: 5px;
+  width: 50%;
+  margin-left: 0%;
+}
+
+.centered
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.upper_box
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #686d76;
+  height: 10%;
+}
+
