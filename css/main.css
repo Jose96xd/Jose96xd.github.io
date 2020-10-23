@@ -1,39 +1,78 @@
-body { background-color: #112d4e; }
-h1, h2, h3, h4, h4, h5, h6
-{ 
-  color: #eeeeee; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-p
+header
 {
-  color: #eeeeee;
-  size: 1%;
+  background-color: black;
+  padding-bottom: 1em;
+  text-align: center;
 }
-
-a:link, a:visited { color: lightsalmon; }
-
-.parrafo
+.title
 {
-  background-color: #373a40;
-  margin: 10px;
-  padding: 5px;
-  width: 50%;
-  margin-left: 0%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  position: relative;
+  z-index: 1;
 }
-
-.centered
+.title span
 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
+  color: red;
 }
-
-.upper_box
+.title::before
 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #686d76;
-  height: 10%;
+  content: ' ';
+  border-radius: 1em;
+  position: absolute;
+  width: 2.3em;
+  background: red;
+  height: 0.3em;
+  bottom: 30%;
+  z-index: -1;
+  margin-left: 0em;
+}
+header .btn-group
+{
+  /*Centrar este elemento a la izquierda*/
+}
+body
+{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: opx;
 }
 
+.title a
+{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+section
+{
+  margin: 1em, 1em;
+}
+
+.main-container
+{
+  background: black url(/Pictures/light_background1.png);
+  text-align: center;
+  margin: 1em, 1em;
+
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.container-text
+{
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.container-text h2
+{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 1em;
+}
