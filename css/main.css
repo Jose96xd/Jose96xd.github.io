@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-header
-{
+/*Upper part with the nav menu and the title*/
+header{
   background-color: black;
   padding-bottom: 1em;
   text-align: center;
 }
-.title
-{
+.title{ /*Title (my name)*/
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 1em;
@@ -15,12 +14,16 @@ header
   position: relative;
   z-index: 1;
 }
-.title span
-{
+.title a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.title span{  /*Decoratio of the 96 number in my name*/
   color: red;
 }
-.title::before
-{
+.title::before{ /*Red decoration under the first three letters of my name*/
   content: ' ';
   border-radius: 1em;
   position: absolute;
@@ -31,48 +34,63 @@ header
   z-index: -1;
   margin-left: 0em;
 }
-header .btn-group
-{
+header .btn-group{
   /*Centrar este elemento a la izquierda*/
 }
-body
-{
+
+/*General settings of the web.*/
+body{
   color: white;
   font-family: 'Montserrat', sans-serif;
   margin: opx;
 }
-
-.title a
-{
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
-section
-{
+section{
   margin: 1em, 1em;
 }
-
-.main-container
-{
+.main-container{  /*Main container of the text and the picture*/
   background: black url(/Pictures/light_background1.png);
   text-align: center;
   margin: 1em, 1em;
-
   padding-bottom: 1em;
   padding-left: 1em;
   padding-right: 1em;
 }
-.container-text
-{
+.container-text{
   padding-top: 2em;
   padding-bottom: 1em;
 }
-.container-text h2
-{
+.container-text h2{
   font-weight: bold;
   font-size: 1.2rem;
   padding-top: 1em;
 }
+
+/*Flottating button*/
+.fab {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rebeccapurple;
+  opacity: 0.6;
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 #666;
+  transition: all 0.1s ease-in-out;
+
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  line-height: 2rem;
+
+  position: fixed;
+  right: 0.8em;
+  bottom: 8rem;
+}
+.fab:hover {
+  box-shadow: 0 6px 14px 0 #666;
+  transform: scale(1.05);
+}
+/*Footer*/
+.footer{
+  background-color: black;
+  padding: 1em;
+}
+

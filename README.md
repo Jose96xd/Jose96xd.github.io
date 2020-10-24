@@ -12,8 +12,9 @@
 ## Implementation
 - [x] Make the title and add some info about me and the web  itself.
 - [x] Add some links to my github and the CoreDumped Academy web.
-- [ ] Try to use Bootstrap or other tools to make the web prettier.
-- [ ] Add some JavaScript in the form of a buttom that moves the page all the way up again and other that shows an alert.
+- [x] Try to use Bootstrap or other tools to make the web prettier.
+- [x] Add some JavaScript in the form of a button that moves the page all the way up again and other that shows an alert.
+- [ ] Make the button transition smother.
 - [ ] Add some original thing like a JS buttom that changes the web colors or picture.
 
 ## Technologies
