@@ -79,6 +79,7 @@ section{
   color: white;
   text-align: center;
   line-height: 2rem;
+  scroll-behavior: smooth;
 
   position: fixed;
   right: 0.8em;
