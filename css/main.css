@@ -96,3 +96,42 @@ section{
   padding: 1em;
 }
 
+@media (min-width: 700px)
+{
+  .main-container
+  {
+    text-align: justify;
+  }
+}
+@media (min-width: 980px)
+{
+  .main-container
+  {
+    text-align: left;
+    margin-left: 0em;
+    padding-right: 1em;
+    padding-left: 2em;
+    padding-top: 2em;
+    display: flex
+  }
+  .container-text
+  {
+    align-self: center;
+  }
+  .container-text p
+  {
+    font-size: 1.3em;
+  }
+  .container-text h2
+  {
+    font-size: 1.6em;
+  }
+  .figure
+  {
+    padding-right: 1em;
+    padding-left: 2em;
+    padding-top: 4em;
+    align-self: center;
+  }
+
+}
