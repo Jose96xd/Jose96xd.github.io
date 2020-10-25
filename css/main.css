@@ -111,12 +111,23 @@ section{
   background-color: black;
   padding: 1em;
 }
+.footer ul
+{
+  display: flex;
+  padding: 1em;
+}
+.footer li
+{
+  margin-left: 1em;
+  margin-right: 2em;
+}
 
 @media (min-width: 700px)
 {
   .main-container
   {
     text-align: justify;
+    margin-bottom: 0em;
   }
 }
 @media (min-width: 980px)
