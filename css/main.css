@@ -43,6 +43,7 @@ body{
   color: white;
   font-family: 'Montserrat', sans-serif;
   margin: opx;
+  height: 100%;
 }
 section{
   margin: 1em, 1em;
@@ -139,7 +140,7 @@ section{
     padding-right: 1em;
     padding-left: 2em;
     padding-top: 2em;
-    display: flex
+    display: flex;
   }
   .container-text
   {
