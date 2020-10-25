@@ -83,12 +83,28 @@ section{
 
   position: fixed;
   right: 0.8em;
+  bottom: 80rem;
+
+  /*  Intento de hacer desaparecer el botón*/
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;  
+}
+.fab.active
+{
+  /*  Intento de hacer desaparecer el botón*/
   bottom: 8rem;
+  visibility: visible;
+  opacity: 1;  
 }
 .fab:hover {
   box-shadow: 0 6px 14px 0 #666;
   transform: scale(1.05);
   background-color: red;
+
+  /*  Intento de hacer desaparecer el botón*/
+  
+  
 }
 /*Footer*/
 .footer{
