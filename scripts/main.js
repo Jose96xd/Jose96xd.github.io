@@ -19,8 +19,8 @@ window.onload = function() {
 // Method that ask the wordltimeapi what day of the year is and displays it under the generic html picture.
 function displayCurrentTime(){
   //var data = "http://worldtimeapi.org/api/timezone/Europe/Madrid";
-  $.getJSON("http://worldtimeapi.org/api/timezone/Europe/Madrid", function(data) {
+  $.getJSON("https://worldtimeapi.org/api/timezone/Europe/Madrid", function(data) {
       document.getElementById("apiDataHolder").innerHTML="Day: " + data.day_of_year + " of 365.";
-}); 
+  }); 
     
 }   
