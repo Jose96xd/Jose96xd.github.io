@@ -14,6 +14,7 @@ window.addEventListener('scroll', function(){
 // This method calls the displayCurrentTime function when loading the web.
 window.onload = function() {
   displayCurrentTime();
+  alert("Entrando en la página de ESJose96");
 }
 
 // Method that ask the wordltimeapi what day of the year is and displays it under the generic html picture.

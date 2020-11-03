@@ -7,7 +7,7 @@
 - The web link: [Jose96xd.github.io](https://Jose96xd.github.io).
 
 ## Summary
-- My first web using html and some css. I plan to learn the basic stuff and a bit of other things.
+- My first web using html, css, JavaScript and some bootstrap.
 
 ## Implementation
 - [x] Make the title and add some info about me and the web  itself.
@@ -18,4 +18,4 @@
 - [ ] Add some original thing like a JS buttom that changes the web colors or picture.
 
 ## Technologies
-- Project created with Visual Studio Code and nothing more for now.
+- Project created with Visual Studio Code and some pieces of bootstrap.
