@@ -15,7 +15,7 @@
 - [x] Try to use Bootstrap or other tools to make the web prettier.
 - [x] Add some JavaScript in the form of a button that moves the page all the way up again and other that shows an alert.
 - [x] Make the button transition smother.
-- [ ] Add some original thing like a JS buttom that changes the web colors or picture.
+- [ ] Add some original thing like a JS button that changes the web colors or picture.
 
 ## Technologies
 - Project created with Visual Studio Code and some pieces of bootstrap.
